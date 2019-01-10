@@ -31,7 +31,7 @@ let isapproved = "false";
 let firstname = "underfined";
 let selectedcolor = "null";*/
 
-let person ={
+/*let person ={
     name : 'thoyib',
     age  : 18,
 };
@@ -40,4 +40,8 @@ person.name = 'ahmad';
 let slection = 'name';
 person[Selection]= 'ghofur';
 
-console.log(person.name);
+console.log(person.name);*/
+
+let selectedColors = ['red','green'];
+selectedColors[2] = 1;
+console.log(selectedColors.length);
