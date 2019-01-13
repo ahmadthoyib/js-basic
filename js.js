@@ -105,6 +105,16 @@ console.log(true == 1)*/
 //if a customer has more than 100 points
 // they are a 'gold' customers, otherwise,
 //they are a 'silver' customers.
-let points = 90;
+/*let points = 90;
 let type = points > 100 ? 'gold' : 'silver';
-console.log(type)
+console.log(type)*/
+
+//logical OR (||)
+//retruns TRUE if one of the operands is TRUE
+let income = false;
+let score  = false;
+let loanfor   = income || score;
+console.log('loan',loanfor );
+//NOT(!)
+let arefused = !loanfor;
+console.log('Arefused',arefused)
