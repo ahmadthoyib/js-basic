@@ -127,7 +127,29 @@ console.log('Arefused',arefused)*/
 //''
 //NaN
 
-let usercolor = undefined
+/*let usercolor = undefined
 let defaultcolor = 'pink'
 let currantcolor = usercolor || defaultcolor;
-console.log(currantcolor);
+console.log(currantcolor);*/
+
+// 1 = 00000001
+// 2 = 00000010
+// 3 = 00000011
+//
+//console.log(1 | 2)
+//console.log(1 & 2)
+
+// read,write,excute
+// 00000100
+// 00000010
+// 00000001
+const read = 5;
+const write = 4;
+const excute = 1;
+
+let mypersion = 0;
+mypersion = mypersion | write;
+
+let message =
+(mypersion & read) ? 'yes' : 'no';
+console.log(message);
