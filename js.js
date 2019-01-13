@@ -42,6 +42,11 @@ person[Selection]= 'ghofur';
 
 console.log(person.name);*/
 
-let selectedColors = ['red','green'];
+/*let selectedColors = ['red','green'];
 selectedColors[2] = 1;
-console.log(selectedColors.length);
+console.log(selectedColors.length);*/
+
+function greet(name, lastName){
+    console.log('hello ' + name + '' + lastName)
+};
+greet('thoyib', 'reza')
