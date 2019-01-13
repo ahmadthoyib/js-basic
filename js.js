@@ -143,7 +143,7 @@ console.log(currantcolor);*/
 // 00000100
 // 00000010
 // 00000001
-const read = 5;
+/*const read = 5;
 const write = 4;
 const excute = 1;
 
@@ -152,4 +152,7 @@ mypersion = mypersion | write;
 
 let message =
 (mypersion & read) ? 'yes' : 'no';
-console.log(message);
+console.log(message);*/
+
+let x = (2 + 3) * 4;
+console.log(x)
