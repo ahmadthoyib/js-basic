@@ -49,4 +49,9 @@ console.log(selectedColors.length);*/
 function greet(name, lastName){
     console.log('hello ' + name + '' + lastName)
 };
-greet('thoyib', 'reza')
+
+function square(number){
+    return number * number
+}
+
+console.log(square(5))
