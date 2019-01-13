@@ -111,10 +111,23 @@ console.log(type)*/
 
 //logical OR (||)
 //retruns TRUE if one of the operands is TRUE
-let income = false;
+/*let income = false;
 let score  = false;
 let loanfor   = income || score;
 console.log('loan',loanfor );
 //NOT(!)
 let arefused = !loanfor;
-console.log('Arefused',arefused)
+console.log('Arefused',arefused)*/
+
+//falsy (false)
+//underfined
+//null
+//0
+//false
+//''
+//NaN
+
+let usercolor = undefined
+let defaultcolor = 'pink'
+let currantcolor = usercolor || defaultcolor;
+console.log(currantcolor);
