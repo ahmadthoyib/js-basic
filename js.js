@@ -46,7 +46,7 @@ console.log(person.name);*/
 selectedColors[2] = 1;
 console.log(selectedColors.length);*/
 
-function greet(name, lastName){
+/*function greet(name, lastName){
     console.log('hello ' + name + '' + lastName)
 };
 
@@ -54,4 +54,23 @@ function square(number){
     return number * number
 }
 
-console.log(square(5))
+console.log(square(5))*/
+
+//operators
+
+let x = 10
+let y = 5
+
+/*console.log(x + y)
+console.log(x - y)
+console.log(x * y)
+console.log(x / y)
+console.log(x % y)
+console.log(x ** y)*/
+
+//increment (++)
+console.log(x++)
+console.log(x)
+
+//derement (--)
+console.log(--x)
