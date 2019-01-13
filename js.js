@@ -95,9 +95,16 @@ console.log(x === 5)
 console.log(x !== 5)*/
 
 //strict equality (type + value )
-console.log(1 === 1)
+/*console.log(1 === 1)
 console.log('1' === 1)
 //lose equality (value)
 console.log(1 == 1)
 console.log('1' == 1)
-console.log(true == 1)
+console.log(true == 1)*/
+
+//if a customer has more than 100 points
+// they are a 'gold' customers, otherwise,
+//they are a 'silver' customers.
+let points = 90;
+let type = points > 100 ? 'gold' : 'silver';
+console.log(type)
