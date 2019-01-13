@@ -75,10 +75,29 @@ console.log(x)
 //derement (--)
 console.log(--x)*/
 
-let x =  10;
+/*let x =  10;
 
 x = x + 5;
 x += 5; 
 
 x = x * 3;
-x *= 3
+x *= 3*/
+
+/*let x = 5;
+
+//relational
+console.log(x > 5)
+console.log(x >= 5)
+console.log(x < 5)
+console.log(x <= 5)
+// equality
+console.log(x === 5)
+console.log(x !== 5)*/
+
+//strict equality (type + value )
+console.log(1 === 1)
+console.log('1' === 1)
+//lose equality (value)
+console.log(1 == 1)
+console.log('1' == 1)
+console.log(true == 1)
