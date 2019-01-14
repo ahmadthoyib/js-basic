@@ -172,8 +172,7 @@ console.log(b);*/
 // if hour is between 6am and 12pm ; good morninng
 // if it is between 12pm and 6pm ; good afternoon
 //owtherwise ; good evening `
-
-let hour = 15;
+/*let hour = 15;
 
 if (hour >= 6 && hour < 12){
     console.log('good morning')
@@ -182,4 +181,23 @@ if (hour >= 6 && hour < 12){
     console.log('good afternoon')
 
 }else
-    console.log('good evening')
+    console.log('good evening')*/
+
+// 2. switch case
+let role = 'guest';
+
+ switch(role){
+     case 'guest':
+     console.log('guest user');
+     break;
+
+     case 'moderator':
+     console.log('moderator user');
+     break;
+
+     default:
+     console,log('unknow user');
+}
+if (role === 'guest') console.log('guest');
+else if (role === 'moderator') console.log('moderator');
+else console.log('unknow user');
