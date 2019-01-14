@@ -184,7 +184,7 @@ if (hour >= 6 && hour < 12){
     console.log('good evening')*/
 
 // 2. switch case
-let role = 'guest';
+/*let role = 'guest';
 
  switch(role){
      case 'guest':
@@ -200,4 +200,9 @@ let role = 'guest';
 }
 if (role === 'guest') console.log('guest');
 else if (role === 'moderator') console.log('moderator');
-else console.log('unknow user');
+else console.log('unknow user');*/
+
+// 3. for
+
+for(let i = 5; i >= 1; i--){
+ if (i % 5 !== 0)console.log(i)}
