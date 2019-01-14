@@ -154,5 +154,13 @@ let message =
 (mypersion & read) ? 'yes' : 'no';
 console.log(message);*/
 
-let x = (2 + 3) * 4;
-console.log(x)
+//let x = (2 + 3) * 4;
+//console.log(x)
+
+let a = 'red';
+let b = 'green';
+let c = a;
+a = b;
+b = c;
+console.log(a);
+console.log(b);;
