@@ -157,10 +157,29 @@ console.log(message);*/
 //let x = (2 + 3) * 4;
 //console.log(x)
 
-let a = 'red';
+/*let a = 'red';
 let b = 'green';
 let c = a;
 a = b;
 b = c;
 console.log(a);
-console.log(b);;
+console.log(b);*/
+
+//control flow
+
+//1. if else 
+//hour
+// if hour is between 6am and 12pm ; good morninng
+// if it is between 12pm and 6pm ; good afternoon
+//owtherwise ; good evening `
+
+let hour = 15;
+
+if (hour >= 6 && hour < 12){
+    console.log('good morning')
+
+}else if(hour >= 12 && hour < 18){
+    console.log('good afternoon')
+
+}else
+    console.log('good evening')
