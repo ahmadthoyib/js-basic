@@ -318,7 +318,7 @@ for (let color of colors)
 }*/
 
 //13.demeret points
-checkspeed(130);
+/*checkspeed(130);
 
 function checkspeed(speed){
     const speedLimit = 70;
@@ -333,4 +333,15 @@ function checkspeed(speed){
     console.log('Licence suspended');
     else
         console.log('points',points);
+}*/
+
+//14,even and odd number
+shownumber(10);
+ 
+function shownumber(limit){
+    for (let i = 0; i <= limit; i++){
+        const message = (i % 2 === 0) ? 'EVEN':'ODD'
+        
+        console.log(i, message);
+    }
 }
