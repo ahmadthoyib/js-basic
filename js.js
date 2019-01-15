@@ -298,10 +298,10 @@ for (let color of colors)
  }*/
 
  //12.fizz buz
- const output = fizzBuzz(false);
-    console.log(output);
+ //const output = fizzBuzz(false);
+   // console.log(output);
 
-function fizzBuzz(input){
+ /*function fizzBuzz(input){
     if (typeof input !== 'number')
     return NaN;
 
@@ -315,4 +315,22 @@ function fizzBuzz(input){
     return 'Buzz';
 
     return input;
+}*/
+
+//13.demeret points
+checkspeed(130);
+
+function checkspeed(speed){
+    const speedLimit = 70;
+    const kmPerPoint = 5;
+
+    if (speed < speedLimit + kmPerPoint){
+        console.log(ok);
+        return;
+    }
+    const points = Math.floor((speed-speedLimit ) / kmPerPoint)
+    if (points >= 12)
+    console.log('Licence suspended');
+    else
+        console.log('points',points);
 }
