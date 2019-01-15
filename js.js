@@ -283,9 +283,16 @@ for (let color of colors)
  }*/
  
  //10.max of two numbers
- let number = max(5,10);
+ /*let number = max(5,10);
  console.log(number);
  
  function max(a,b){
      return (a > b) ? a : b;
+ }*/
+
+ //11.landscape and potrait
+ console.log(isLandscape(300, 600));
+
+ function isLandscape(width, height){
+     return(width > height);
  }
