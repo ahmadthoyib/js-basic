@@ -347,7 +347,7 @@ function shownumber(limit){
 }*/
 
 //15.count truthy
-const array =[0,null,undefined,'',2,3];
+/*const array =[0,null,undefined,'',2,3];
 
 console.log(countruthy(array));
 
@@ -357,4 +357,19 @@ function countruthy(array){
     if (value)
     count ++;
     return count
+}*/
+
+//16.string propties
+const movie = {
+    title : 'the programer',
+    releaseyear : 2018,
+    rating : 7.7,
+    directori :'b'
+};
+showproproperties(movie);
+function showproproperties(obj){
+    for (let key in obj){
+        if(typeof obj[key] === 'string')
+        console.log(key, obj[key] )
+    }
 }
