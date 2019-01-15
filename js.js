@@ -257,7 +257,7 @@ for (let i = 0; i < 10;);*/
 //do while
 
 //for in
-const person ={
+/*const person ={
     name : 'thoyib',
     age : 18
 };
@@ -268,4 +268,16 @@ for(let key in person)
     const colors = ['red','pink','black'];
 
 for (let color of colors)
-    console.log(color)
+    console.log(color)*/
+
+ //9.break and contiue
+ let i = 0;
+ while(i <= 10){
+     if(i === 5)break;
+     if (i % 2 === 0){
+         i++
+         continue;
+     }
+     console.log(i);
+    i++;
+ }   
