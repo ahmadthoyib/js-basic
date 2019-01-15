@@ -237,7 +237,7 @@ do{
 }while (i <= 5);*/
 
 // 6.infiniti lopps
-let i = 0;
+/*let i = 0;
 while (i < 5){
     console.log(i);
     //i++;
@@ -249,6 +249,22 @@ do{
     //x++
 }while (x < 5);
 
-for (let i = 0; i < 10;);
+for (let i = 0; i < 10;);*/
 
+// 7. for in
+//for 
+// while 
+//do while
 
+//for in
+const person ={
+    name : 'thoyib',
+    age : 18
+};
+for(let key in person)
+    console.log(key,person[key]);
+
+    const color = ['red','pink','black'];
+
+for (let index in color)
+    console.log(index,color[index]);
