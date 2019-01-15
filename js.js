@@ -264,7 +264,8 @@ const person ={
 for(let key in person)
     console.log(key,person[key]);
 
-    const color = ['red','pink','black'];
+//for of
+    const colors = ['red','pink','black'];
 
-for (let index in color)
-    console.log(index,color[index]);
+for (let color of colors)
+    console.log(color)
