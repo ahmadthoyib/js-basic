@@ -336,7 +336,7 @@ function checkspeed(speed){
 }*/
 
 //14,even and odd number
-shownumber(10);
+/*shownumber(10);
  
 function shownumber(limit){
     for (let i = 0; i <= limit; i++){
@@ -344,4 +344,17 @@ function shownumber(limit){
         
         console.log(i, message);
     }
+}*/
+
+//15.count truthy
+const array =[0,null,undefined,'',2,3];
+
+console.log(countruthy(array));
+
+function countruthy(array){
+    let count = 0;
+    for (let value of array)
+    if (value)
+    count ++;
+    return count
 }
