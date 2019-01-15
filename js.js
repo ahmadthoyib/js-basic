@@ -360,7 +360,7 @@ function countruthy(array){
 }*/
 
 //16.string propties
-const movie = {
+/*const movie = {
     title : 'the programer',
     releaseyear : 2018,
     rating : 7.7,
@@ -372,4 +372,17 @@ function showproproperties(obj){
         if(typeof obj[key] === 'string')
         console.log(key, obj[key] )
     }
-}
+}*/
+
+//17.sum of multiplise
+console.log(sum(10));
+
+function sum(limit){
+    let sum = 0;
+
+    for(let i = 0; i<= limit; i++)
+    if(i % 3 === 0 || i % 5 === 0)
+    sum += i;
+
+    return sum;
+}   
