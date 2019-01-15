@@ -271,7 +271,7 @@ for (let color of colors)
     console.log(color)*/
 
  //9.break and contiue
- let i = 0;
+ /*let i = 0;
  while(i <= 10){
      if(i === 5)break;
      if (i % 2 === 0){
@@ -280,4 +280,12 @@ for (let color of colors)
      }
      console.log(i);
     i++;
- }   
+ }*/
+ 
+ //10.max of two numbers
+ let number = max(5,10);
+ console.log(number);
+ 
+ function max(a,b){
+     return (a > b) ? a : b;
+ }
