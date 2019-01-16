@@ -389,7 +389,7 @@ function sum(limit){
 
 //19.grade
 
-function calculateGrade(mark){
+/*function calculateGrade(mark){
     const average = calculateAverage(marks);
     if (average < 60) return 'F';
     if (average < 70) return 'D';
@@ -402,4 +402,16 @@ function calculateAverage(array){
     for (let value of array)
         sum += value;
     return sum / array.length;
+}*/
+
+//19.start
+showStars(10);
+
+function showStars(rows){
+    for (let row = 1; row <= rows; row++){
+    let pattern = '';
+    for (let i = 0; i < row; i++)
+    pattern += '*';
+    console.log(pattern);
+    }
 }
