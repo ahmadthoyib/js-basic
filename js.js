@@ -433,7 +433,7 @@ function showStars(rows){
 
                     // object
 //1.basic
-const circle = {
+/*const circle = {
     radius: 1,
     locationn: {
         x : 1,
@@ -444,4 +444,18 @@ const circle = {
         console.log('draw');
     }
 };
-circle.draw();
+circle.draw();*/
+//2.factory functions
+function createCircle(radius){
+    return{
+        radius,
+        draw(){
+            console.log('draw');
+        }
+    };
+}
+const circle1 = createCircle(1);
+console.log(circle1);
+
+const circle2 = createCircle(2);
+console.log(circle2)
