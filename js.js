@@ -417,7 +417,7 @@ function showStars(rows){
 }*/
 
  //20.prime number
- showPrimes(10);
+ /*showPrimes(10);
 
  function showPrimes(limit){
      for(let number = 2; number <= limit; number++)
@@ -429,4 +429,19 @@ function showStars(rows){
         return false;
 
         return true;
+    }*/
+
+                    // object
+//1.basic
+const circle = {
+    radius: 1,
+    locationn: {
+        x : 1,
+        y: 1
+    },
+    invisible: true,
+    draw: function(){
+        console.log('draw');
     }
+};
+circle.draw();
