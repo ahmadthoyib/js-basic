@@ -405,7 +405,7 @@ function calculateAverage(array){
 }*/
 
 //19.start
-showStars(10);
+/*showStars(10);
 
 function showStars(rows){
     for (let row = 1; row <= rows; row++){
@@ -414,4 +414,19 @@ function showStars(rows){
     pattern += '*';
     console.log(pattern);
     }
-}
+}*/
+
+ //20.prime number
+ showPrimes(10);
+
+ function showPrimes(limit){
+     for(let number = 2; number <= limit; number++)
+        if (isPrime) console.log(number);
+     }
+    function isPrime(number){
+    for (let factor = 2; factor < number; factor++)
+        if(number % factor === 0)
+        return false;
+
+        return true;
+    }
